@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+
+    <header class="cabeçalho">
+        <div class="logo">
+          <h1 class="titulo">Trabalho de Biotecnologia</h1>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Conteudo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="galeria.html">galeria</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+  <title>Informações de Contato</title>
+  <style>
+    .tab-content {
+      display: none;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .tab-buttons {
+      margin-bottom: 10px;
+    }
+
+    .tab-buttons button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .tab-buttons button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function openTab(tabName) {
+      var i, tabContent;
+      tabContent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  
+  <h1>Contato dos Alunos</h1>
+  
+  <div class="tab-buttons">
+    <button onclick="openTab('Juan')">Juan</button>
+    <button onclick="openTab('Maria')">Maria</button>
+    <button onclick="openTab('Mathias')">Mathias</button>
+    <button onclick="openTab('Nicolas')">Nicolas</button>
+    <button onclick="openTab('Eduardo')">Eduardo</button>
+  </div>
+
+  <div id="Juan" class="tab-content active">
+    <h2>Juan</h2>
+    <p>E-mail: juan.giovannoni@escola.pr.gov.br</p>
+    <p>Telefone: (41) 8484-2037</p>
+  </div>
+
+  <div id="Maria" class="tab-content">
+    <h2>Maria</h2>
+    <p>E-mail: maria.labruna@escola.pr.gov.br</p>
+    <p>Telefone: (41) 9943-8593</p>
+  </div>
+
+  <div id="Mathias" class="tab-content">
+    <h2>Mathias</h2>
+    <p>E-mail: mathias.souza@escola.pr.gov.br</p>
+    <p>Telefone: (41) 8506-2772</p>
+  </div>
+
+  <div id="Nicolas" class="tab-content">
+    <h2>Nicolas</h2>
+    <p>E-mail: nicolas.guarnieri@escola.pr.gov.br</p>
+    <p>Telefone: (41) 8430-9015</p>
+  </div>
+
+  <div id="Eduardo" class="tab-content">
+    <h2>Eduardo</h2>
+    <p>E-mail: eduardo.cardozo.cavalcante@escola.pr.gov.br</p>
+    <p>Telefone: (67) 9284-7544</p>
+  </div>
+</body>
+</html>
