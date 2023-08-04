@@ -20,6 +20,12 @@ background-size: cover;
 }
 
 
+table{
+  margin: 100px;
+  margin-top: 0;
+}
+
+
 .timeline {
   margin: 20px;
   display: grid;
@@ -151,16 +157,16 @@ background-size: cover;
   padding: 20px;
   border-radius: 50px;
   justify-content: center;
-  margin-left: 260px ;
+  margin-left: 60px ;
   margin-top: 0;
 }
 
 table {
   margin-left: 60px;
   justify-content: center;
-  margin: 0;
-  width: 100%;
+  margin: 0px;
   border-collapse: collapse;
+  border: 20px solid  #0f7a56;
 }
 
 th, td {
