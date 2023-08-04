@@ -95,7 +95,7 @@ background-size: cover;
  
   background-color: #e6ddd82d;
   border-radius: 40px;
-  margin-top: 40px;
+ 
 }
 
 .calendar{
@@ -147,7 +147,7 @@ background-size: cover;
   max-width: 800px;
   margin: 0px auto;
   
-  background-color: #b6878700;
+  background-color: #ffe8e8;
   padding: 20px;
   border-radius: 50px;
   justify-content: center;
@@ -166,66 +166,29 @@ table {
 th, td {
   padding: 2px;
   text-align: center;
-  border: 1px solid #ffffff00;
+  border: 1px solid #ffffff;
   
 }
 
 th {
-  background-color: #e6ddd83a;
+  background-color: #e6ddd8;
 }
 
 td {
   height: 40px;
-
+ background-color: #e6ddd8;
 }
 
-.today {
-  background-color: rgb(107, 107, 40);
+
+.blue{
+  background-color: rgb(43, 130, 243);
 }
 
-.highlighted{
-  background-color: #28547e;
+.green{
+  background-color: rgb(95, 219, 95);
 }
 
-.boxes {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.color-box {
-  margin-top: -280px;
-  width: 20px;
-  height: 20px;
-  background-color:  rgb(107, 107, 40); /* Replace with your desired color */
-  margin-right: 10px;
-}
-
-.box-text {
-  margin-top: -275px;
-  margin-left: -10px;
-  font-size: 18px;
-  color: #000000; /* Replace with your desired text color */
-}
-
-.color-box2 {
-  margin-top: -278px;
-  width: 20px;
-  height: 20px;
-  background-color: #28547e; /* Replace with your desired color */
-  margin-left: 20px;
-}
-
-.box-text2 {
-  margin-top: -276px;
-  margin-left: 0px;
-  font-size: 18px;
-  color: #000000; /* Replace with your desired text color */
+.red {
+  background-color: rgb(233, 39, 87);
 }
 
