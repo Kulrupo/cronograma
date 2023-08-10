@@ -4,8 +4,10 @@
  }
 
 body{
-background-color: rgb(255, 255, 255);
+background-color: #0f7a56;
 
+margin: 12px;
+margin-top: 0;
 }
 
 .começo{
@@ -97,93 +99,38 @@ table{
 
 
 
-#calendar {
- 
-  background-color: #e6ddd82d;
-  border-radius: 40px;
- 
-}
-
-.calendar{
-
-  margin: 140px;
-}
-
-#prev-button{
-  color: #e6ddd8;
-  border: none;
-  margin-left: 50px;
-  transition: ease-in 0.4s;
-  background-color:  #0f7a56ee;
-  padding: 4px;
-  width: 100px;
-  height: 30px;
-  
-}
-
-#next-button{
-  height: 30px;
-  width: 100px;
-  color: #e6ddd8;
-  border: none;
-  margin-left: 200px;
-  transition: ease-in 0.4s;
-  padding: 4px;
-  background-color:  #0f7a56ee;
-}
-
-
-#prev-button:hover{
-  background-color: gray;
-  border: none;
- 
- 
-}
-
-#next-button:hover{
-  background-color: gray;
-  border: none;
-
-
-}
 
 
 
-#calendar-container {
-  max-width: 800px;
-  margin: 0px auto;
-  
-  background-color: #ffe8e8;
-  padding: 20px;
-  border-radius: 50px;
-  justify-content: center;
-  margin-left: 60px ;
-  margin-top: 0;
-}
 
 table {
-  margin-left: 60px;
   justify-content: center;
-  margin: 0px;
-  border-collapse: collapse;
-  border: 20px solid  #0f7a56;
+    border-collapse: collapse;
+    margin: 20px;
+    
 }
 
 th, td {
-  padding: 2px;
-  text-align: center;
-  border: 1px solid #ffffff;
-  
+    border: 1px solid rgb(0, 0, 0);
+    padding: 11px;
+    text-align: left;
 }
 
 th {
-  background-color: #e6ddd8;
+    background-color: #f2f2f2;
 }
 
-td {
-  height: 40px;
- background-color: #e6ddd8;
+tr{
+  background-color: #f2f2f2;
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
 
 
 .blue{
@@ -201,4 +148,69 @@ td {
 
 .yellow{
   background-color: rgb(221, 221, 86);
+}
+
+@media (max-width: 768px) {
+
+  
+ 
+
+table {
+  justify-content: center;
+    border-collapse: collapse;
+    margin: -10px ;
+    padding: 0;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr{
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.task {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.task h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.task p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.task ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.task li {
+  margin-bottom: 5px;
+}
+
+
+
+
+
 }
