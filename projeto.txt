@@ -1,0 +1,29 @@
+Linha do Tempo: 
+Use ferramentas como Tiki-Toki ou TimelineJS para criar algo visualmente bonito e interativo.
+
+Cartas de Amor: Você pode criar uma página com um design de “carta”, 
+ou até mesmo digitalizar cartas que já escreveu e colocá-las em formato PDF.
+
+Galeria de Fotos: Utilize um plugin ou uma ferramenta como Canva para fazer
+ montagens legais e dar um toque especial às fotos.
+
+Playlist de Música: Você pode integrar uma playlist do Spotify ou 
+YouTube diretamente no site.
+
+Mapa de Viagens: Experimente usar o Google Maps
+ para criar um mapa personalizado e adicionar marcadores com suas lembranças.
+
+Quiz sobre o Relacionamento: Sites como Typeform 
+ou Quizlet permitem criar quizzes interativos de forma simples.
+
+Seção de Planos Futuros: Pode ser uma lista simples
+ ou algo mais visual, como um mural digital no Pinterest.
+
+Vídeos e Mensagens: Use o Vimeo ou YouTube para hospedar
+ os vídeos e depois embedar no site.
+
+Diário de Memórias: Crie um espaço para ele deixar comentários
+ ou mensagens, como um blog, onde ele possa interagir.
+
+Tema Personalizado: Escolha cores e fontes que ele goste, talvez a
+té usando elementos visuais de suas séries ou filmes favoritos.

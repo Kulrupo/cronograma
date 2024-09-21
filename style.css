@@ -1,0 +1,126 @@
+body {
+    font-family: 'Georgia', serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e295a2, #fcccb0);
+    margin: 0;
+}
+
+.introducao {
+    
+    padding: 50px;
+    margin-bottom: 300px;
+    text-align: center;
+   
+}
+
+.introducao h1 {
+    font-size: 100px;
+    color: #f55f5f;
+    background-color: #ffffff8f;
+    border-radius: 10px;
+    padding-bottom: 60px;
+}
+
+
+.bots{
+    position: relative;
+    top: -150px;
+ display: flex;
+ flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.bots a{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: #6800008c;
+    padding: 10px;
+    background-color: #ff00002c;
+    border-radius: 10px;
+    transition: .20s ease-out;
+}
+
+.bots a:hover{
+    background-color: #f55f5f;
+    transition: .20s ease-in;
+}
+
+
+
+
+
+
+.timer {
+    display: contents;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    
+}
+
+.timer h1 {
+    color: #ff6f61;
+    font-size: 2.5em;
+    margin-bottom: 650px;
+}
+
+#countdown {
+    font-size: 2.5em;
+    color: #4a4a4a;
+    padding-top: 40px;
+
+}
+
+#countdown span {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 8px;
+    background-color: #ff6f61;
+    color: #fff;
+    transition: background-color 0.3s;
+    
+}
+
+
+.carta{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 600px;
+    padding: 10px;
+display: block;
+justify-content: center;
+text-align: center;
+background-color: #ffffff8f;
+
+}
+
+.carta h1{
+    text-align: center;
+    color: #ff6f61;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.carta p{
+    text-align: start;
+    margin-left: 160px;
+}
+
+
+.planos{
+height: 1000px;
+
+
+
+}
