@@ -3,7 +3,7 @@ function verificarSenha() {
     const senhaCorreta = "teamo"; 
 
     if (senha === senhaCorreta) {
-        window.location.href = "index.html";
+        window.location.href = "tyamo.html";
     }
     else{
         alert("Errou a senha, tenta dinovo bobo");
